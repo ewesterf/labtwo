@@ -3,9 +3,24 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    float A;
+    float B;
+    float X;
+    cout << "Ax + B = 0" << endl;
+    cout << "Please enter a value for A:";
+    cin >> A;
+    cout << "Please enter a value for B:";
+    cin >> B;
+
+    cout << "A=" << A << endl;
+    cout << "B=" << B << endl;
+
+    X = -B / A;
+    cout << "x=" << X << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
